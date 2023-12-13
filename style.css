@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  background: rgb(00, 00, 66);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+  color: white;
+}
+/* 
+.card:hover {
+  border: 5px solid red;
+} */
+
+.inp {
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 320px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.btn {
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  background: blue;
+  color: white;
+  border: none;
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.prew {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  color: white;
+}
+
+.next {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  color: white;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
